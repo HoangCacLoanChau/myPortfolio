@@ -1,0 +1,43 @@
+.aboutMe{
+    padding-top: 120px;
+    background-image: url(../image/bg15.png);
+    background-size: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-bottom: 85px;
+    overflow: hidden;
+}
+.aboutMe_container{
+    display: flex;
+    gap: 100px;
+    align-items:center;
+    
+}
+
+.aboutMe_left{
+    width:50%;
+}
+.aboutMe_left img{
+    width: 100%;
+    height: 70%;
+    border-radius: 0 100px 100px 0;
+
+}
+.aboutMe_right{
+    width: 50%;
+}
+.aboutMe_right p{
+    margin-bottom: 15px;
+}
+.aboutMe_right ul{
+    margin-bottom: 15px;
+}
+.aboutMe_right li{
+    list-style-type: none;
+}
+.aboutMe_right i{
+    font-size: 24px;
+    color: #f55f8d;
+    margin-right: 10px;
+    vertical-align: middle;
+}

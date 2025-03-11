@@ -1,0 +1,82 @@
+.intro{
+    background: url(../image/pic2.png);
+    background-size: cover;
+    background-position: top;
+    background-size: 100%;
+    padding-top: 180px;
+}
+.intro_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro_left{
+    width: 60%;
+}
+.intro_right{
+    width: 50%;
+}
+.intro_left h4{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #f55f8d;
+}
+
+.intro_left h1{
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+.intro_left p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.intro_left li{
+    list-style-type: none;
+    padding: 10px 5px 10px 0;
+    font-size: 20px;
+}
+.intro_left i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 35px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    background-size: 200%;
+    margin-right: 10p;
+}
+.banner{
+    width: 570px;
+    margin-left: 50px;
+    animation-name: entry_left ;
+    animation-duration: 2s;
+    animation-timing-function:linear ;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+
+}
+.intro_right img{
+    max-width: 100%;
+
+
+}
+
+@keyframes entry_left {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    } to{
+        opacity: 1;
+        scale: 1;
+    }
+}

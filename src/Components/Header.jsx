@@ -44,7 +44,12 @@ export default function Header() {
             </li>
           </ul>
           <div>
-            <button className="button_gradient">GET A QUOTE</button>
+            <a
+              href="https://drive.google.com/file/d/1BSqKIoOCjYkoNjhT4aO8ag0Uqd2L6jkL/view?usp=sharing"
+              target="_blank"
+            >
+              <button className="button_gradient">My Resume</button>
+            </a>
           </div>
         </nav>
       </div>

@@ -5,6 +5,7 @@ import {
   ApartmentOutlined,
   CodeOutlined,
   DeploymentUnitOutlined,
+  PlaySquareOutlined,
 } from "@ant-design/icons";
 export default function Project() {
   return (
@@ -26,10 +27,13 @@ export default function Project() {
                     <p>
                       A multitenancy architecture application connecting schools and their alumni.
                       <p>my role is back-end mostly build CRUD APIs</p>
-                      GitHub:
-                      <a href="https://github.com/Capstone-Alumni/alumni" target="_blank">
-                        <GithubOutlined />
-                        View on GitHub
+                      GitHub:{" "}
+                      <a
+                        className="hover:underline"
+                        href="https://github.com/Capstone-Alumni/alumni"
+                        target="_blank"
+                      >
+                        <GithubOutlined /> View on GitHub
                       </a>
                     </p>
                   </div>
@@ -44,9 +48,12 @@ export default function Project() {
                     <h3>Project to learn html and css</h3>
                     <p>
                       Live Demo:{" "}
-                      <a href="https://pooch-care-xi.vercel.app/" target="_blank">
-                        <GithubOutlined />
-                        View on GitHub
+                      <a
+                        className="hover:underline"
+                        href="https://pooch-care-xi.vercel.app/"
+                        target="_blank"
+                      >
+                        <PlaySquareOutlined /> View Demo
                       </a>
                     </p>
                   </div>
@@ -65,9 +72,12 @@ export default function Project() {
                       UI: TailwindCSS, antd
                       <br />
                       GitHub:{" "}
-                      <a href="https://github.com/HoangCacLoanChau/Fiver-Capstone" target="_blank">
-                        <GithubOutlined />
-                        View on GitHub
+                      <a
+                        className="hover:underline"
+                        href="https://github.com/HoangCacLoanChau/Fiver-Capstone"
+                        target="_blank"
+                      >
+                        <GithubOutlined /> View on GitHub
                       </a>
                     </p>
                   </div>

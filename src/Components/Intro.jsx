@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { MailFilled, ProfileFilled } from "@ant-design/icons";
+import { MailFilled } from "@ant-design/icons";
 import Container from "./Container";
 import styles from "./css/Intro.module.css";
 import "animate.css";
@@ -23,13 +23,8 @@ export default function Intro() {
             <ul className="">
               <li>
                 <i className="las la-check"></i>
-                <span className="text-fuchsia-300 hover:text-fuchsia-800">
+                <span className="text-red-300 hover:text-fuchsia-800">
                   <MailFilled /> HoangCacLoanChau@gmail.com
-                </span>
-              </li>
-              <li>
-                <span className="text-fuchsia-300 hover:text-fuchsia-800">
-                  <ProfileFilled /> my CV:
                 </span>
               </li>
             </ul>

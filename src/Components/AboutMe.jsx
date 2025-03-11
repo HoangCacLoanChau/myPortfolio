@@ -3,8 +3,8 @@ import Container from "./Container";
 import styles from "./css/AboutMe.module.css";
 export default function AboutMe() {
   return (
-    <Container>
-      <section id="aboutMe" className={styles.aboutMe}>
+    <section id="aboutMe" className={styles.aboutMe}>
+      <Container>
         <div className={styles.aboutMe_container}>
           <div className={styles.aboutMe_left}>
             <img src="./image/pic1.jpg" alt="" />
@@ -52,7 +52,7 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

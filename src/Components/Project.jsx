@@ -10,7 +10,7 @@ import {
 export default function Project() {
   return (
     <Container>
-      <section className={styles.project}>
+      <section id="project" className={styles.project}>
         <div className="title text-center">
           <h4>Some of my project</h4>
         </div>

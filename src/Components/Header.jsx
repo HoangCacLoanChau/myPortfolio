@@ -2,36 +2,36 @@ import Container from "./Container";
 import styles from "./css/Header.module.css";
 export default function Header() {
   return (
-    <Container>
-      <div className={styles.header}>
+    <div className={styles.header}>
+      <Container>
         <nav className={styles.header_container}>
           <ul className={styles.nav}>
             <li className={styles.li}>
-              <a className={styles.a} href="#">
+              <a className={styles.a} href="">
                 <span className="inline-block">Home</span>
               </a>
             </li>
             <li className={styles.li}>
               <a className={styles.a} href="#intro">
-                <span className="inline-block">About</span>
+                <span className="inline-block">Intro</span>
               </a>
             </li>
             <li className={styles.li}>
-              <a className={styles.a} href="#">
-                <span className="inline-block">Service</span>
+              <a className={styles.a} href="#skills">
+                <span className="inline-block">Skills</span>
               </a>
             </li>
             <li className={styles.li}>
-              <a className={styles.a} href="#">
-                <span className="inline-block">Post Layout</span>
+              <a className={styles.a} href="#project">
+                <span className="inline-block">Project</span>
               </a>
             </li>
             <li className={styles.li}>
               <a
                 className="text-black font-medium transition delay-150 duration-300  hover:animate-pulse hover:text-rose-600"
-                href="#"
+                href="#aboutMe"
               >
-                <span className="inline-block">Blog</span>
+                <span className="inline-block">About Me</span>
               </a>
             </li>
             <li className={styles.li}>
@@ -39,7 +39,7 @@ export default function Header() {
                 className="text-black font-medium transition delay-150 duration-300  hover:animate-pulse hover:text-rose-600"
                 href="#footer"
               >
-                <span className="inline-block">Contact Us</span>
+                <span className="inline-block">Contact</span>
               </a>
             </li>
           </ul>
@@ -52,7 +52,7 @@ export default function Header() {
             </a>
           </div>
         </nav>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }

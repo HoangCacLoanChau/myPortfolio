@@ -7,7 +7,7 @@
 
 .header_container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -19,6 +19,7 @@
 .header_container ul{
     display: flex;
     list-style-type: none;
+    justify-content: right;
     align-items: center;
     margin-right: 30px;
 

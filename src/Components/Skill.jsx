@@ -2,8 +2,8 @@ import Container from "./Container";
 import styles from "./css/Skill.module.css";
 export default function Skill() {
   return (
-    <Container>
-      <section id="skills" className={styles.skills}>
+    <section id="skills" className={styles.skills}>
+      <Container>
         <div className="title">
           <h4>What I Know</h4>
           <h1>My skills</h1>
@@ -29,7 +29,7 @@ export default function Skill() {
             <p>Github</p>
           </div>
         </div>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

@@ -9,8 +9,8 @@ import {
 } from "@ant-design/icons";
 export default function Project() {
   return (
-    <Container>
-      <section id="project" className={styles.project}>
+    <section id="project" className={styles.project}>
+      <Container>
         <div className="title text-center">
           <h4>Some of my project</h4>
         </div>
@@ -26,7 +26,7 @@ export default function Project() {
                     <h3>Alumni - graduation project - 4p</h3>
                     <p>
                       A multitenancy architecture application connecting schools and their alumni.
-                      <p>my role is back-end mostly build CRUD APIs</p>
+                      <br />
                       GitHub:{" "}
                       <a
                         className="hover:underline"
@@ -45,7 +45,7 @@ export default function Project() {
                     <CodeOutlined />
                   </i>
                   <div>
-                    <h3>Project to learn html and css</h3>
+                    <h3>Pooch Care - Project html and css</h3>
                     <p>
                       Live Demo:{" "}
                       <a
@@ -65,7 +65,7 @@ export default function Project() {
                     <DeploymentUnitOutlined />
                   </i>
                   <div>
-                    <h3>Group project to learn React - 3 p</h3>
+                    <h3>Fiver - Group project to learn React - 3p</h3>
                     <p>
                       Use Redux as state management, Axios to fecth data
                       <br />
@@ -89,7 +89,7 @@ export default function Project() {
             <img src="./image/pic3.png" alt="" />
           </div>
         </div>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

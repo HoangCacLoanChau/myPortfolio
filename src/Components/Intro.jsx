@@ -20,14 +20,12 @@ export default function Intro() {
               ideas into reality using HTML, CSS, and JavaScript, and I'm currently learning ReactJS
               to build dynamic web applications.
             </p>
-            <ul className="">
-              <li>
-                <i className="las la-check"></i>
-                <span className="text-myPink hover:text-fuchsia-800">
-                  <MailFilled /> HoangCacLoanChau@gmail.com
-                </span>
-              </li>
-            </ul>
+            <p>
+              <i className="las la-check"></i>
+              <span className="text-myPink hover:text-fuchsia-800">
+                <MailFilled /> HoangCacLoanChau@gmail.com
+              </span>
+            </p>
             {/* <div>
               <button className="button_gradient ">GET STARTED</button>
             </div> */}

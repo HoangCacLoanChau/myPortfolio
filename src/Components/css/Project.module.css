@@ -11,16 +11,14 @@
 }
 
 .project_container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
     align-items:center;
 }
-.project_left{
-    width: 50%;
+.project_left,.project_right{
+    margin: 10px;
 }
-.project_right{
-    width: 50%;
-    margin-right: -80px;
-}
+
 .project_item:nth-of-type(2) {
     padding: 0 0 30px 50px;
 }

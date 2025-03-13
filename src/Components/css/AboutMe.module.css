@@ -8,24 +8,21 @@
     overflow: hidden;
 }
 .aboutMe_container{
-    display: flex;
-    gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    gap: 20px;
     align-items:center;
     
 }
 
-.aboutMe_left{
-    width:50%;
-}
+
 .aboutMe_left img{
     width: 100%;
     height: 70%;
     border-radius: 0 100px 100px 0;
 
 }
-.aboutMe_right{
-    width: 50%;
-}
+
 .aboutMe_right p{
     margin-bottom: 15px;
 }
@@ -40,4 +37,21 @@
     color: #f55f8d;
     margin-right: 10px;
     vertical-align: middle;
+}
+@media(max-width:920px){
+    .aboutMe_left {
+        display: grid;
+        place-items: center; /* Centers both horizontally & vertically */
+        height: 100%;
+    }
+    
+    .aboutMe_left img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 100px;
+    
+    }
+    .aboutMe_right{
+        margin: 10px;
+    }
 }

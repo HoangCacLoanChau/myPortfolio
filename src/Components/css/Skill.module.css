@@ -23,8 +23,9 @@
 
 .skills_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* 3 equal columns */
     gap: 30px;
+    justify-content: center;
 }
 .skills_container img{
     width: 90%;

@@ -12,7 +12,7 @@ export default function Intro() {
             <div className="title">
               <h4 className="">Hi there,</h4>
               <h1 className="">
-                My Name is Chau <br />
+                My Name Is Chau <br />
               </h1>
             </div>
             <p className="">
@@ -23,7 +23,7 @@ export default function Intro() {
             <ul className="">
               <li>
                 <i className="las la-check"></i>
-                <span className="text-red-300 hover:text-fuchsia-800">
+                <span className="text-myPink hover:text-fuchsia-800">
                   <MailFilled /> HoangCacLoanChau@gmail.com
                 </span>
               </li>

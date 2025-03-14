@@ -56,7 +56,6 @@
     
 }
 
-
 .header_container li:hover a{
 color: #f55f8d;
 }
@@ -104,12 +103,13 @@ color: #f55f8d;
 
     }
     .menu_button, .close_button {
-        display: block;
+        display: inline-block;
     }
     
      .input:checked ~ .links_container{
         right: 0;
      }
+     /* click outside sidebar to exit sidebar */
      .input:checked ~ .overlay{
         height: 100%;
         width: 100%;

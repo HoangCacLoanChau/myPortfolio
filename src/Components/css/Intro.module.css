@@ -53,15 +53,7 @@
     background-size: 200%;
     margin-right: 10p;
 }
-.banner{
-    width: 570px;
-    margin-left: 50px;
-    animation-name: entry_left ;
-    animation-duration: 2s;
-    animation-timing-function:linear ;
-    
 
-}
 .intro_right img{
     max-width: 100%;
     height: auto;

@@ -5,6 +5,7 @@
     background-position: center;
     padding: 80px 0 50px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .statis_container{
     display: flex;
@@ -13,7 +14,7 @@
 .statis_item{
     width: 25%;
 }
-.statis_item i{
+/* .statis_item i{
     background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
     background-size: 200%;
     color: #fff;
@@ -24,7 +25,7 @@
     border-radius: 50%;
     margin-bottom: 15px;
     font-size: 45px;
-}
+} */
 /* type p đầu tiên trong item  */
 .statis .statis_item p:first-of-type{
     font-size: 75px;

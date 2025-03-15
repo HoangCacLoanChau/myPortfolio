@@ -1,42 +1,38 @@
 import Container from "./Container";
+import styles from "./css/Statis.module.css";
+import CountUp from "react-countup";
 
 export default function Statis() {
   return (
-    <Container>
-      <section className="statis">
-        <div className="container">
-          <div className="statis_container">
-            <div className="statis_item">
-              <i className="flaticon-smile"></i>
-              <p>
-                <span className="number">2</span>
-              </p>
-              <p>be a better developer</p>
-            </div>
-            <div className="statis_item">
-              <i className="flaticon-line-chart"></i>
-              <p>
-                <span className="number">0</span>
-              </p>
-              <p>Regret</p>
-            </div>
-            <div className="statis_item">
-              <i className="flaticon-startup"></i>
-              <p>
-                <span className="number">2</span>
-              </p>
-              <p>be a happy girl</p>
-            </div>
-            <div className="statis_item">
-              <i className="flaticon-confetti"></i>
-              <p>
-                <span className="number">5</span>
-              </p>
-              <p>more in learning</p>
-            </div>
+    <section className={styles.statis}>
+      <Container>
+        <div className={styles.statis_container}>
+          <div className={styles.statis_item}>
+            <p>
+              <CountUp end={2} duration={2} className={styles.number}></CountUp>
+            </p>
+            <p>THANK</p>
+          </div>
+          <div className={styles.statis_item}>
+            <p>
+              <span className={styles.number}>0</span>
+            </p>
+            <p>YOU</p>
+          </div>
+          <div className={styles.statis_item}>
+            <p>
+              <CountUp end={2} duration={2} className={styles.number}></CountUp>
+            </p>
+            <p>FOR</p>
+          </div>
+          <div className={styles.statis_item}>
+            <p>
+              <CountUp end={5} duration={3} className={styles.number}></CountUp>
+            </p>
+            <p>WATCHING</p>
           </div>
         </div>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

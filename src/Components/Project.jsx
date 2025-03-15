@@ -27,6 +27,8 @@ export default function Project() {
                     <p>
                       A multitenancy architecture application connecting schools and their alumni.
                       <br />
+                      tech: NextJs, Prisma ORM, PostGreSQL, vercel, firebase
+                      <br />
                       GitHub:{" "}
                       <a
                         className="hover:underline"

@@ -31,7 +31,10 @@
     background-size: 200%;
     margin-right: 10p;
 }
-
+.intro_right{
+    display:flex;
+    justify-content: flex-end;
+}
 .intro_right img{
     max-width: 100%;
     height: auto;

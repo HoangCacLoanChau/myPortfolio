@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Intro from "./Components/Intro";
 import Project from "./Components/Project";
 import Skill from "./Components/Skill";
+import Statis from "./Components/Statis";
 
 function App() {
   const sectionRefs = {
@@ -21,6 +22,7 @@ function App() {
       <Skill ref={sectionRefs.skillRef} />
       <Project ref={sectionRefs.projectRef} />
       <AboutMe ref={sectionRefs.aboutMeRef} />
+      <Statis />
       <Footer ref={sectionRefs.footerRef} />
     </>
   );

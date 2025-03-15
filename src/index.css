@@ -43,7 +43,7 @@ html,body {
     color: #f55f8d;
 }
 p{
-    font-size: clamp(10px, 4vw, 24px);
+    font-size: clamp(10px, 4vw, 18px);
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;

@@ -15,9 +15,7 @@
     grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
     align-items:center;
 }
-.project_left,.project_right{
-    margin: 10px;
-}
+
 
 .project_item:nth-of-type(2) {
     padding: 0 0 30px 50px;
@@ -63,7 +61,6 @@
 }
 .project_content div{
     flex: 1; /* Ensures text takes up available space */
-    
     z-index: 1;
     transition: all 1s;
 }
@@ -89,12 +86,10 @@
 }
 .project_right img{
     width: 100%;
+    height: auto;
     animation: move infinite 5s;
 }
- .fab.fa-github,   .fas.fa-external-link-alt {
-    margin-left: 5px;
-    font-size: 18px;
-  }
+
 
 @keyframes move {
     0% {
@@ -106,4 +101,13 @@
     100% {
         transform: rotate(1deg) translate(2px, 2px);
     }
+}
+
+
+@media(max-width:600px) {
+    .project_right img{
+        width: 90%;
+    }
+    
+    
 }

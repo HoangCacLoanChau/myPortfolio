@@ -15,7 +15,7 @@ export default function Intro() {
                 My Name Is Chau <br />
               </h1>
             </div>
-            <p className="">
+            <p>
               I am still a newbie to web Developer and want to be a skilled one. I love turning
               ideas into reality using HTML, CSS, and JavaScript, and I'm currently learning ReactJS
               to build dynamic web applications.

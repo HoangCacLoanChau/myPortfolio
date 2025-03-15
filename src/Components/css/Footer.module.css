@@ -172,7 +172,11 @@ footer::before{
 }
 .copyright_container{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-between;
+    flex: 1;
+
 }
 
 .footer_copyright a {

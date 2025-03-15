@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles.footer_copyright}>
         <Container>
           <div>
-            <p className="">
+            <p >
               P/S: Thank you for watching until here. Although this website is not perfect, I will
               stay keen on improving it and making it more beautiful. 🙌
             </p>

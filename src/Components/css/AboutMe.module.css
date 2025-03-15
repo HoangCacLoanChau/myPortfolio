@@ -9,7 +9,7 @@
 }
 .aboutMe_container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 20px;
     align-items:center;
     
@@ -39,11 +39,6 @@
     vertical-align: middle;
 }
 @media(max-width:920px){
-    .aboutMe_left {
-        display: grid;
-        place-items: center; /* Centers both horizontally & vertically */
-        height: 100%;
-    }
     
     .aboutMe_left img{
         max-width: 100%;
@@ -51,7 +46,14 @@
         border-radius: 100px;
     
     }
-    .aboutMe_right{
-        margin: 10px;
+}
+
+@media(max-width:500px){
+    
+    .aboutMe_left img{
+        height: auto;
+        border-radius: 100px;
+        padding: 0 10px;
     }
+    
 }

@@ -6,14 +6,11 @@
 }
 .intro_container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     align-items: center;
 }
-.intro_left, .intro_right{
-    margin: 10px;
 
-}
 
 
 .intro_left li{
@@ -40,12 +37,7 @@
     height: auto;
 
 }
-@media(max-width:500px) {
-    .intro_right img{
 
-    max-width: 70%;
-    }
-}
 @keyframes entry_left {
     from{
         opacity: 0;

@@ -31,7 +31,6 @@
     list-style-type: none;
     justify-content: right;
     align-items: center;
-    margin-right: 30px;
 
 }
 .header_container a{
@@ -51,7 +50,7 @@
 .header_container span{
     display: inline-block;
 }
-.nav li{
+.nav li:not(:last-child){
     padding: 30px 20px;
     
 }
@@ -74,7 +73,7 @@ color: #f55f8d;
       opacity: 1;
     }
     100%{
-        color:#070120;
+        color:#f55f8d;
     }
   }
 

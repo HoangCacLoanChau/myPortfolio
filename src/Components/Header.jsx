@@ -31,6 +31,7 @@ export default function Header() {
                 </li>
                 <li className={styles.li}>
                   <a
+                    href="#intro"
                     className={styles.a}
                     // onClick={(e) => {
                     //   e.preventDefault();

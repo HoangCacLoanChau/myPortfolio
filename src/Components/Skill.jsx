@@ -10,7 +10,7 @@ export default function Skill() {
         </div>
         <div className={styles.skills_container}>
           <div className={styles.skills_item}>
-            <img src="./image/pic1_3.jpg" alt="" />
+            <img src="./image/pic2_2.jpg" alt="" />
             <h3>Front End</h3>
             <p>
               basic HTML, CSS, JS, TailwindCSS, React
@@ -19,7 +19,7 @@ export default function Skill() {
             </p>
           </div>
           <div className={styles.skills_item}>
-            <img src="./image/pic2_2.jpg" alt="" />
+            <img src="./image/pic1_3.jpg" alt="" />
             <h3>Back End</h3>
             <p>I know basic query database, prisma ORM</p>
           </div>

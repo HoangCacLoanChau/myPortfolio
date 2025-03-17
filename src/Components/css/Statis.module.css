@@ -26,15 +26,15 @@
     margin-bottom: 15px;
     font-size: 45px;
 } */
-/* type p đầu tiên trong item  */
-.statis .statis_item p:first-of-type{
-    font-size: 75px;
+/* type p đầu tiên tron g item  */
+.statis_container .statis_item p:first-of-type{
+    font-size: clamp(2.8rem, 4vw, 4.5rem);
     font-weight: 800;
     color: #f55f8d;
     line-height: 1;
 }
 /* type p cuối cùng trong item  */
-.statis .statis_item p:last-of-type {
+.statis_container .statis_item p:last-of-type {
     color: #262626;
     font-size: 18px;
 }
